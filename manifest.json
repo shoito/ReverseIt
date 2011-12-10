@@ -1,0 +1,13 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon48.png",
+      "default_title": "ReverseIt!"
+   },
+   "icons": { "48": "icon48.png",
+          "128": "icon128.png" },
+   "description": "GIZMODEの2010年エイプリルフールネタを現在開いてるページに適用する。 http://www.gizmodo.jp/2010/04/post_6958.html",
+   "name": "ReverseIt!",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "version": "0.2"
+}

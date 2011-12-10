@@ -1,0 +1,10 @@
+<html>
+<head>
+<script>
+	chrome.browserAction.onClicked.addListener(function(tab) {
+		chrome.tabs.insertCSS(tab.id, {file:"reverse.css"}, null);
+	});
+</script>
+</head>
+</html>
+
